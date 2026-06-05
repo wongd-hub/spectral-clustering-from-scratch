@@ -135,9 +135,7 @@ train_spectral_clustering <- function(
 
 }
 
-
-
-# Rudimentary grid search
+## Rudimentary grid search ----
 c_mult <- c(0.01, 0.1, 0.5, 1, 2)
 k_nn   <- c(1, 10, 30, 50, 70, 100)
 
